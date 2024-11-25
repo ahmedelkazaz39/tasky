@@ -1,0 +1,8 @@
+flutter_native_splash:
+  image: assets/images/tasky_splash.png
+  color: "#5F33E1"
+  android_12:
+    image: assets/images/tasky_splash.png
+    color: "#5F33E1"
+
+    
