@@ -3,6 +3,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:tasky/core/routing/app_route.dart';
 
 import 'core/routing/routes.dart';
+import 'core/theming/colors.dart';
 
 void main() {
   runApp(Tasky(
@@ -25,6 +26,9 @@ class Tasky extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         initialRoute: Routes.onboardingScreen,
         onGenerateRoute: appRouter.generateRoute,
+        theme: ThemeData(
+          primaryColor: ColorsManager.textWhite,
+        ),
       ),
     );
   }
